@@ -28,6 +28,9 @@ defmodule MessageRouter.Mixfile do
   #
   # Type "mix help deps" for more examples and options
   defp deps do
-    []
+    [
+      {:romeo, github: "scrogson/romeo"},
+      {:hackney, "~> 1.6"}
+    ]
   end
 end
