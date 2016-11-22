@@ -1,0 +1,384 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8B1A852E3F73BBD910D070FB /* Pods_ElixirMeetupClient.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3FBE7D4420B5BAFDC954D351 /* Pods_ElixirMeetupClient.framework */; };
+		C994E3B71DE4B2F7007C4539 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C994E3B61DE4B2F7007C4539 /* AppDelegate.swift */; };
+		C994E3B91DE4B2F7007C4539 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C994E3B81DE4B2F7007C4539 /* ViewController.swift */; };
+		C994E3BC1DE4B2F7007C4539 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C994E3BA1DE4B2F7007C4539 /* Main.storyboard */; };
+		C994E3BE1DE4B2F7007C4539 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C994E3BD1DE4B2F7007C4539 /* Assets.xcassets */; };
+		C994E3C11DE4B2F7007C4539 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C994E3BF1DE4B2F7007C4539 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3FBE7D4420B5BAFDC954D351 /* Pods_ElixirMeetupClient.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ElixirMeetupClient.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4FC024EE318044D2DBE5C744 /* Pods-ElixirMeetupClient.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ElixirMeetupClient.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ElixirMeetupClient/Pods-ElixirMeetupClient.debug.xcconfig"; sourceTree = "<group>"; };
+		C994E3B31DE4B2F7007C4539 /* ElixirMeetupClient.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ElixirMeetupClient.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C994E3B61DE4B2F7007C4539 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C994E3B81DE4B2F7007C4539 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C994E3BB1DE4B2F7007C4539 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C994E3BD1DE4B2F7007C4539 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C994E3C01DE4B2F7007C4539 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C994E3C21DE4B2F7007C4539 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CC6F07E145D9E3FEBB38A43C /* Pods-ElixirMeetupClient.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ElixirMeetupClient.release.xcconfig"; path = "Pods/Target Support Files/Pods-ElixirMeetupClient/Pods-ElixirMeetupClient.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C994E3B01DE4B2F7007C4539 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B1A852E3F73BBD910D070FB /* Pods_ElixirMeetupClient.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C994E3AA1DE4B2F7007C4539 = {
+			isa = PBXGroup;
+			children = (
+				C994E3B51DE4B2F7007C4539 /* ElixirMeetupClient */,
+				C994E3B41DE4B2F7007C4539 /* Products */,
+				DC62648ADF025B8A90BFB2C1 /* Pods */,
+				D917EE12359900547C7F2907 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		C994E3B41DE4B2F7007C4539 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C994E3B31DE4B2F7007C4539 /* ElixirMeetupClient.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C994E3B51DE4B2F7007C4539 /* ElixirMeetupClient */ = {
+			isa = PBXGroup;
+			children = (
+				C994E3B61DE4B2F7007C4539 /* AppDelegate.swift */,
+				C994E3B81DE4B2F7007C4539 /* ViewController.swift */,
+				C994E3BA1DE4B2F7007C4539 /* Main.storyboard */,
+				C994E3BD1DE4B2F7007C4539 /* Assets.xcassets */,
+				C994E3BF1DE4B2F7007C4539 /* LaunchScreen.storyboard */,
+				C994E3C21DE4B2F7007C4539 /* Info.plist */,
+			);
+			path = ElixirMeetupClient;
+			sourceTree = "<group>";
+		};
+		D917EE12359900547C7F2907 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3FBE7D4420B5BAFDC954D351 /* Pods_ElixirMeetupClient.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DC62648ADF025B8A90BFB2C1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4FC024EE318044D2DBE5C744 /* Pods-ElixirMeetupClient.debug.xcconfig */,
+				CC6F07E145D9E3FEBB38A43C /* Pods-ElixirMeetupClient.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C994E3B21DE4B2F7007C4539 /* ElixirMeetupClient */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C994E3C51DE4B2F7007C4539 /* Build configuration list for PBXNativeTarget "ElixirMeetupClient" */;
+			buildPhases = (
+				7F54F3D4FB80328D19CF516F /* [CP] Check Pods Manifest.lock */,
+				C994E3AF1DE4B2F7007C4539 /* Sources */,
+				C994E3B01DE4B2F7007C4539 /* Frameworks */,
+				C994E3B11DE4B2F7007C4539 /* Resources */,
+				F22540902CD984757A5CF680 /* [CP] Embed Pods Frameworks */,
+				F5540819C3C98CC294D25EB4 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ElixirMeetupClient;
+			productName = ElixirMeetupClient;
+			productReference = C994E3B31DE4B2F7007C4539 /* ElixirMeetupClient.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C994E3AB1DE4B2F7007C4539 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0810;
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = "Teemu Harju";
+				TargetAttributes = {
+					C994E3B21DE4B2F7007C4539 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 5N645UMVDP;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = C994E3AE1DE4B2F7007C4539 /* Build configuration list for PBXProject "ElixirMeetupClient" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C994E3AA1DE4B2F7007C4539;
+			productRefGroup = C994E3B41DE4B2F7007C4539 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C994E3B21DE4B2F7007C4539 /* ElixirMeetupClient */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C994E3B11DE4B2F7007C4539 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C994E3C11DE4B2F7007C4539 /* LaunchScreen.storyboard in Resources */,
+				C994E3BE1DE4B2F7007C4539 /* Assets.xcassets in Resources */,
+				C994E3BC1DE4B2F7007C4539 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		7F54F3D4FB80328D19CF516F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run \'pod install\' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		F22540902CD984757A5CF680 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ElixirMeetupClient/Pods-ElixirMeetupClient-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F5540819C3C98CC294D25EB4 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ElixirMeetupClient/Pods-ElixirMeetupClient-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C994E3AF1DE4B2F7007C4539 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C994E3B91DE4B2F7007C4539 /* ViewController.swift in Sources */,
+				C994E3B71DE4B2F7007C4539 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C994E3BA1DE4B2F7007C4539 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C994E3BB1DE4B2F7007C4539 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C994E3BF1DE4B2F7007C4539 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C994E3C01DE4B2F7007C4539 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C994E3C31DE4B2F7007C4539 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C994E3C41DE4B2F7007C4539 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C994E3C61DE4B2F7007C4539 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4FC024EE318044D2DBE5C744 /* Pods-ElixirMeetupClient.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 5N645UMVDP;
+				INFOPLIST_FILE = ElixirMeetupClient/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = im.teemu.ElixirMeetupClient;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		C994E3C71DE4B2F7007C4539 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CC6F07E145D9E3FEBB38A43C /* Pods-ElixirMeetupClient.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 5N645UMVDP;
+				INFOPLIST_FILE = ElixirMeetupClient/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = im.teemu.ElixirMeetupClient;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C994E3AE1DE4B2F7007C4539 /* Build configuration list for PBXProject "ElixirMeetupClient" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C994E3C31DE4B2F7007C4539 /* Debug */,
+				C994E3C41DE4B2F7007C4539 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C994E3C51DE4B2F7007C4539 /* Build configuration list for PBXNativeTarget "ElixirMeetupClient" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C994E3C61DE4B2F7007C4539 /* Debug */,
+				C994E3C71DE4B2F7007C4539 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C994E3AB1DE4B2F7007C4539 /* Project object */;
+}
