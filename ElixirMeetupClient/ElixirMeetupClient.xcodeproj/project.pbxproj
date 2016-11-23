@@ -13,6 +13,8 @@
 		C994E3BC1DE4B2F7007C4539 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C994E3BA1DE4B2F7007C4539 /* Main.storyboard */; };
 		C994E3BE1DE4B2F7007C4539 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C994E3BD1DE4B2F7007C4539 /* Assets.xcassets */; };
 		C994E3C11DE4B2F7007C4539 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C994E3BF1DE4B2F7007C4539 /* LaunchScreen.storyboard */; };
+		C994E3C91DE4BD62007C4539 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = C994E3C81DE4BD62007C4539 /* GoogleService-Info.plist */; };
+		C994E3CC1DE4BEDD007C4539 /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C994E3CB1DE4BEDD007C4539 /* AdSupport.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +27,9 @@
 		C994E3BD1DE4B2F7007C4539 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C994E3C01DE4B2F7007C4539 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C994E3C21DE4B2F7007C4539 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C994E3C81DE4BD62007C4539 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		C994E3CA1DE4BE32007C4539 /* ElixirMeetupClient.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ElixirMeetupClient.entitlements; sourceTree = "<group>"; };
+		C994E3CB1DE4BEDD007C4539 /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
 		CC6F07E145D9E3FEBB38A43C /* Pods-ElixirMeetupClient.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ElixirMeetupClient.release.xcconfig"; path = "Pods/Target Support Files/Pods-ElixirMeetupClient/Pods-ElixirMeetupClient.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -33,6 +38,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C994E3CC1DE4BEDD007C4539 /* AdSupport.framework in Frameworks */,
 				8B1A852E3F73BBD910D070FB /* Pods_ElixirMeetupClient.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -61,6 +67,8 @@
 		C994E3B51DE4B2F7007C4539 /* ElixirMeetupClient */ = {
 			isa = PBXGroup;
 			children = (
+				C994E3CA1DE4BE32007C4539 /* ElixirMeetupClient.entitlements */,
+				C994E3C81DE4BD62007C4539 /* GoogleService-Info.plist */,
 				C994E3B61DE4B2F7007C4539 /* AppDelegate.swift */,
 				C994E3B81DE4B2F7007C4539 /* ViewController.swift */,
 				C994E3BA1DE4B2F7007C4539 /* Main.storyboard */,
@@ -74,6 +82,7 @@
 		D917EE12359900547C7F2907 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				C994E3CB1DE4BEDD007C4539 /* AdSupport.framework */,
 				3FBE7D4420B5BAFDC954D351 /* Pods_ElixirMeetupClient.framework */,
 			);
 			name = Frameworks;
@@ -125,6 +134,14 @@
 						CreatedOnToolsVersion = 8.1;
 						DevelopmentTeam = 5N645UMVDP;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+							com.apple.Push = {
+								enabled = 1;
+							};
+						};
 					};
 				};
 			};
@@ -152,6 +169,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C994E3C11DE4B2F7007C4539 /* LaunchScreen.storyboard in Resources */,
+				C994E3C91DE4BD62007C4539 /* GoogleService-Info.plist in Resources */,
 				C994E3BE1DE4B2F7007C4539 /* Assets.xcassets in Resources */,
 				C994E3BC1DE4B2F7007C4539 /* Main.storyboard in Resources */,
 			);
@@ -172,7 +190,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run \'pod install\' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
 		F22540902CD984757A5CF680 /* [CP] Embed Pods Frameworks */ = {
@@ -335,6 +353,7 @@
 			baseConfigurationReference = 4FC024EE318044D2DBE5C744 /* Pods-ElixirMeetupClient.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = ElixirMeetupClient/ElixirMeetupClient.entitlements;
 				DEVELOPMENT_TEAM = 5N645UMVDP;
 				INFOPLIST_FILE = ElixirMeetupClient/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -349,6 +368,7 @@
 			baseConfigurationReference = CC6F07E145D9E3FEBB38A43C /* Pods-ElixirMeetupClient.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = ElixirMeetupClient/ElixirMeetupClient.entitlements;
 				DEVELOPMENT_TEAM = 5N645UMVDP;
 				INFOPLIST_FILE = ElixirMeetupClient/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -377,6 +397,7 @@
 				C994E3C71DE4B2F7007C4539 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

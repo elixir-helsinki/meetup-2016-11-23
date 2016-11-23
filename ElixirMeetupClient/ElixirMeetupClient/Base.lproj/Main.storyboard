@@ -1,26 +1,61 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11134" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11542" systemVersion="16B2553a" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="N4T-l9-xlw">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11106"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11524"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
-        <scene sceneID="tne-QT-ifu">
+        <scene sceneID="wlt-Fn-iuu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="N4T-l9-xlw" customClass="ViewController" customModule="ElixirMeetupClient" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
-                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                        <viewControllerLayoutGuide type="top" id="PWD-ME-oxO"/>
+                        <viewControllerLayoutGuide type="bottom" id="3yK-kW-oRD"/>
                     </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                    <view key="view" contentMode="scaleToFill" id="PID-Am-eyv">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="x1c-Cd-mIa">
+                                <rect key="frame" x="16" y="20" width="343" height="387"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="D4a-6W-Pvk">
+                                <rect key="frame" x="16" y="407" width="343" height="30"/>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" returnKeyType="send" enablesReturnKeyAutomatically="YES"/>
+                                <connections>
+                                    <outlet property="delegate" destination="N4T-l9-xlw" id="0Rs-47-8CI"/>
+                                </connections>
+                            </textField>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="x1c-Cd-mIa" firstAttribute="leading" secondItem="PID-Am-eyv" secondAttribute="leadingMargin" id="Uog-8H-aTZ"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="D4a-6W-Pvk" secondAttribute="trailing" id="Z62-ao-vT5"/>
+                            <constraint firstItem="x1c-Cd-mIa" firstAttribute="top" secondItem="PWD-ME-oxO" secondAttribute="bottom" id="h4u-i7-HAs"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="x1c-Cd-mIa" secondAttribute="trailing" id="ql9-NJ-6Se"/>
+                            <constraint firstItem="3yK-kW-oRD" firstAttribute="top" secondItem="D4a-6W-Pvk" secondAttribute="bottom" constant="230" id="qzW-3s-LkT"/>
+                            <constraint firstItem="D4a-6W-Pvk" firstAttribute="leading" secondItem="PID-Am-eyv" secondAttribute="leadingMargin" id="tR9-md-XOK"/>
+                            <constraint firstItem="D4a-6W-Pvk" firstAttribute="top" secondItem="x1c-Cd-mIa" secondAttribute="bottom" id="uI1-FQ-21g"/>
+                        </constraints>
                     </view>
+                    <connections>
+                        <outlet property="textView" destination="x1c-Cd-mIa" id="a3Y-Va-uAy"/>
+                    </connections>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="uVY-un-vfo" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="109.59999999999999" y="184.85757121439281"/>
         </scene>
     </scenes>
 </document>
